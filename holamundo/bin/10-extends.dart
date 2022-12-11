@@ -21,11 +21,13 @@ abstract class Personaje{
   }
 }
 
+// Heredo de la clase abstracta mediante el extends y envio parametro por 'super'
 class Heroe extends Personaje{
   int valentia =100;
   Heroe(String nombre): super(nombre);
 }
 
+// Heredo de la clase abstracta mediante el extends y envio parametro por 'super'
 class Villano extends Personaje{
   int maldad = 50;
   Villano(String nombre):super(nombre);
